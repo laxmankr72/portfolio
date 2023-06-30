@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+/*......header......*/
+#body-header{
+    height: 65vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+/*....Horizontal-list....*/
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 0px 8px;
+    margin-top: 20px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+/*.......name-social-container......*/
+#name-social-container{
+    text-align: center;
+    margin-top: 20vh;
+   
+}
+#my-name{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    /* margin-bottom: 0.5rem; */
+}

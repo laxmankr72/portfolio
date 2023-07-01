@@ -1,7 +1,7 @@
 body{
     margin: 0px;
 }
-/*......header......*/
+/*......header start......*/
 #body-header{
     height: 65vh;
     background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
@@ -29,10 +29,13 @@ body{
 .horizontal-list li a{
     text-decoration: none;
     color: white;
+   
+}
+.nav-menu li a{
     transition: color 0.5s, border-bottom 4s;
 }
 
-.horizontal-list li a:hover{
+.nav-menu li a:hover{
     color: lightgray;
     border-bottom: 1px solid black;
 }
@@ -55,4 +58,53 @@ body{
     padding: 10px;
     border-radius: 50%;
     font-size: 1rem;
+}
+
+.social-icon li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*.......header end.......*/
+
+/*........start main ......*/
+/*.........about section.......*/
+
+#about{
+    height: auto;
+    width:100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white ;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+    
+}
+
+#para{
+    padding: 15vw;
+    padding-top: 5px;
+    
+}
+#para p{
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    word-spacing: 3px;
+    text-align: justify;
+
+}
+.hilight{
+    color: #2857a4;
+    
 }
